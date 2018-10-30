@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="367.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER_LEFT" prefHeight="28.0" prefWidth="367.0">
+               <children>
+                  <Button fx:id="new_connection" mnemonicParsing="false" text="新建">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="delete_connection" mnemonicParsing="false" text="删除" />
+               </children>
+            </HBox>
+            <ListView prefHeight="196.0" prefWidth="367.0" VBox.vgrow="ALWAYS" />
+            <HBox alignment="CENTER_RIGHT" prefHeight="29.0" prefWidth="367.0">
+               <children>
+                  <Button fx:id="connect_connection" mnemonicParsing="false" text="连接" />
+                  <Button fx:id="cancen" mnemonicParsing="false" text="取消">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
