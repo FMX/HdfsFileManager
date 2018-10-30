@@ -9,7 +9,7 @@ HDFS 文件浏览工具。从其它人的项目fork 而来。但是原项目无�
 2.完善程序功能。  
 
 ## 备注
-使用是需要加上 -XstartOnFirstThread 这个JVM参数。
+运行需要加上 -XstartOnFirstThread 这个JVM参数。
 
 ## 特别鸣谢：
 https://github.com/wzp06354/HDFSBrowser
