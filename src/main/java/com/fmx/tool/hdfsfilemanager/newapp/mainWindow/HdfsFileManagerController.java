@@ -1,4 +1,4 @@
-package com.fmx.tool.hdfsfilemanager.newapp;
+package com.fmx.tool.hdfsfilemanager.newapp.mainWindow;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
